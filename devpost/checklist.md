@@ -33,7 +33,7 @@ Build mode: learn
   Learner check: 滚完整条时间线，是否能回答「AI在这案子里干了什么」「计划是怎么一步步具体化的」。
   Commit: `Render case timeline with action sequence and plan details`
 
-- [ ] **3. AI 角色标签 + 展开细节**
+- [x] **3. AI 角色标签 + 展开细节**
   Becomes usable: 时间线节点带 **AI 角色**（如识别/上报）标签；要点可展开看细节，收起不挡路。
   Why now: 补全 kernel 的第二问「角色是什么」；交互按「人少点、多看清」落地。
   PRD ref: `prd.md > AI干了什么 · 时间线` / `prd.md > 交互与完成度`
@@ -43,7 +43,7 @@ Build mode: learn
   Learner check: 不看说明能否看出每段 AI 的角色；展开细节是否好用、是否觉得像「点下一步」。
   Commit: `Add AI role labels and expandable details`
 
-- [ ] **4. 来源区 + 视觉收尾 + README**
+- [x] **4. 来源区 + 视觉收尾 + README**
   Becomes usable: 来源一节含可点链接与完整出处；整体暗色科技/档案感成型；README 说明如何本地打开与部署；页面满足工程 done。
   Why now: 真实可查与作品感是提交底线；放在最后收口，避免中途被视觉细节拖住 kernel。
   PRD ref: `prd.md > 事实与来源` / `prd.md > 交互与完成度` / `prd.md > Look and Feel`
@@ -55,7 +55,7 @@ Build mode: learn
 
 ## Hands-on Checkpoints
 
-- [ ] Early usable behavior explored 鈥?slices 1-2 完成后（时间线 kernel 可用时）
+- [x] Early usable behavior explored 鈥?slices 1-2 完成后（时间线 kernel 可用时）
 - [ ] Final kick-the-tires exploration and feedback completed
 
 ## Final Review
@@ -75,5 +75,7 @@ Reflection: [to fill]
 Activity mode: [to fill]
 
 ## Revisions
+
+- [Pixel fonts + Matrix phosphor green palette] — [Final-review visual request from learner: VT323/Press Start 2P and #00ff41 on near-black. Digital-rain animation still out; green theme is in.]
 
 - [English-only UI and copy] — [Submission materials must be English (or translated); learner chose English-only instead of a zh/en toggle after this constraint was flagged mid-build. Dual-language switch is cut.]

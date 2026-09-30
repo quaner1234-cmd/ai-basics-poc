@@ -1,17 +1,17 @@
 /* AI会伤害人吗？ — dark tech / dossier look
-   Avoid: green matrix rain, purple-blue AI gradients, reader-app article chrome. */
+   Look: Matrix phosphor green on black (learner choice). Avoid: digital-rain animation cliché, purple-blue AI gradients. */
 
 :root {
-  --bg: #0b0e12;
-  --bg-elev: #12171e;
-  --ink: #e8eef5;
-  --ink-dim: #8b98a8;
-  --line: #243041;
-  --accent: #3d9be9;
-  --accent-warn: #e85d4c;
-  --accent-ok: #3dba8c;
-  --mono: "SF Mono", "Cascadia Code", "Consolas", "Liberation Mono", monospace;
-  --sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --bg: #030805;
+  --bg-elev: #0a140c;
+  --ink: #b6ffc8;
+  --ink-dim: #5d9e72;
+  --line: #1e4d2e;
+  --accent: #00ff41;
+  --accent-warn: #c8ff32;
+  --accent-ok: #00cc66;
+  --mono: "VT323", "Press Start 2P", "Cascadia Code", "Consolas", monospace;
+  --sans: "VT323", "Cascadia Code", "Segoe UI", "Consolas", monospace;
   --max: 52rem;
   --pad: clamp(1.25rem, 4vw, 2.5rem);
 }
@@ -32,7 +32,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
-  line-height: 1.65;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -75,11 +76,13 @@ body {
 }
 
 .hero__title {
-  font-size: clamp(2.25rem, 8vw, 4.25rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  margin: 0 0 1rem;
+  font-family: "Press Start 2P", var(--mono);
+  font-size: clamp(1.35rem, 5vw, 2.35rem);
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+  margin: 0 0 1.25rem;
+  text-shadow: 0 0 12px rgba(0, 255, 65, 0.35);
 }
 
 .hero__subtitle {
