@@ -50,10 +50,22 @@
         });
 
         btn.addEventListener("click", function () {
-          var open = panel.hidden;
-          panel.hidden = !open;
-          btn.setAttribute("aria-expanded", open ? "true" : "false");
-          btn.textContent = open ? "Hide plan details" : "Show plan details";
+          var opening = panel.classList.contains("is-open") === false;
+          if (opening) {
+            panel.hidden = false;
+            // force reflow so transition runs from collapsed
+            void panel.offsetHeight;
+            panel.classList.add("is-open");
+            btn.setAttribute("aria-expanded", "true");
+            btn.textContent = "Hide plan details";
+          } else {
+            panel.classList.remove("is-open");
+            btn.setAttribute("aria-expanded", "false");
+            btn.textContent = "Show plan details";
+            window.setTimeout(function () {
+              if (!panel.classList.contains("is-open")) panel.hidden = true;
+            }, 320);
+          }
         });
 
         wrap.appendChild(btn);

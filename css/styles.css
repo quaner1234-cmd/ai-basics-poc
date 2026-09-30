@@ -471,3 +471,47 @@ body.fx-on::before {
     animation: none;
   }
 }
+/* plan details expand — suspense drawer */
+.timeline__plan {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  border-top-width: 0;
+  transform: translateY(-6px);
+  transition:
+    max-height 0.32s ease,
+    opacity 0.28s ease,
+    transform 0.28s ease,
+    padding 0.28s ease,
+    margin 0.28s ease,
+    border-width 0.28s ease;
+}
+
+.timeline__plan.is-open {
+  max-height: 28rem;
+  opacity: 1;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+  margin-top: 0.75rem;
+  border-top-width: 3px;
+  transform: translateY(0);
+}
+
+.timeline__toggle:active {
+  transform: scale(0.97);
+}
+
+.timeline__toggle {
+  transition: border-color 0.15s, color 0.15s, transform 0.12s, background 0.15s;
+}
+
+.timeline__toggle:hover {
+  background: rgba(0, 255, 65, 0.08);
+}
+
+.timeline__plan.is-open {
+  box-shadow: inset 0 0 24px rgba(0, 255, 65, 0.06);
+}
