@@ -515,3 +515,41 @@ body.fx-on::before {
 .timeline__plan.is-open {
   box-shadow: inset 0 0 24px rgba(0, 255, 65, 0.06);
 }
+/* terminal case reveal */
+.case.is-locked {
+  display: none;
+}
+
+.is-queued {
+  opacity: 0 !important;
+  transform: none;
+  filter: none;
+}
+
+.is-typing {
+  border-right: 1px solid var(--accent);
+  caret-color: transparent;
+}
+
+.timeline__item.is-typing,
+.source.is-typing {
+  border-right: 0;
+  min-height: 1rem;
+}
+
+.source .is-typing,
+.timeline__plan-text.is-typing {
+  border-right: 1px solid var(--accent);
+  display: inline;
+  padding-right: 2px;
+  animation: blink 0.8s steps(1) infinite;
+}
+
+.footer-locked {
+  display: none;
+}
+button.hero__cta {
+  font-family: var(--mono);
+  cursor: pointer;
+  appearance: none;
+}
