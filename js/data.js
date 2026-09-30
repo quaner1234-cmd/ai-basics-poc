@@ -1,83 +1,95 @@
 // Case data — fact source. English-only UI (submission language).
-// Short attributed excerpts only; do not paste full articles.
+// Multi-source verified (Palm Beach Post / USA TODAY Network, Hoodline, others).
+// Short attributed facts only; do not paste full articles.
 window.CASE_DATA = {
   timeline: [
     {
       id: "breakup",
-      date: "Feb–Mar 2025",
+      date: "Mar 2026",
       title: "Breakup, then harassment",
       summary:
-        "After a 6-month relationship, Amber ends it following a violent outburst. From March, anonymous messages escalate—insults, sexual threats, and hints that he knows where she is.",
+        "After a six-month relationship, a 21-year-old woman from Lake Worth Beach ends it by phone—she later tells deputies she feared his “erratic, jealous and controlling behavior.” From March, Darren Zhou turns to ChatGPT to process the breakup and tracks her online activity.",
       aiRole: "context",
       roleLabel: "Context",
       planDetails: []
     },
     {
       id: "planning",
-      date: "Apr 24–29, 2025",
-      title: "A plan takes shape in chat",
+      date: "Mar–May 2026",
+      title: "Threats harden into a plan",
       summary:
-        "Darren Zhou repeats a detailed plan to ChatGPT: wait near her Thursday volleyball lot, approach with flowers, and if she refuses, shoot her, then die by suicide. He restates it across days.",
+        "Chat messages preserved in court records escalate from jealousy talk to rape, murder, and murder-suicide. Zhou writes lines including “I'm gonna kill her by the end of this month” and “If I can't have her then nobody can.” Targets later include her family.",
       aiRole: "recorded",
       roleLabel: "Plan recorded",
       planDetails: [
-        { label: "Target", text: "Ex-girlfriend Amber; later extended to her family in chat." },
-        { label: "Method", text: "Firearm; messages also describe beating and other violence." },
-        { label: "Place & timing", text: "Parking lot by her weekly Thursday volleyball; he would wait outside." },
-        { label: "Sequence", text: "Wait → approach with flowers → if refused, shoot → suicide." },
-        { label: "Escalation", text: "From vague lines to insults, threats, then a full repeated plan." }
+        { label: "Target", text: "Ex-girlfriend; later extended to her family, per investigators." },
+        { label: "Stated intent", text: "Kill her “by the end of this month”; “if I can't have her then nobody can.”" },
+        { label: "Stalking pattern", text: "Calls, texts, app-generated numbers, social pressure about comments on her TikTok—despite repeated requests to stop." },
+        { label: "Escalation", text: "From breakup talk to sexual threats, then detailed violent planning across weeks." },
+        { label: "How police read it", text: "A deputy said the logs were not “vague emotional outbursts” but showed rehearsal and planning." }
       ]
     },
     {
       id: "disclosure",
-      date: "May 2025",
-      title: "OpenAI flags & discloses",
+      date: "May 2026",
+      title: "OpenAI flags → FBI → local deputies",
       summary:
-        "OpenAI’s backend detects repeated, dangerous violent content and issues an emergency disclosure to law enforcement—citing intent to die by suicide and murder the ex-girlfriend, stalking her schedule, and a plan with target, means, sequence, and specificity.",
+        "OpenAI’s safety systems flag the chats for human review; the company reports Zhou to the FBI. Federal agents hand two months of his chat logs to the Palm Beach County Sheriff’s Office. Deputies also take the ex-girlfriend’s screenshots of harassing messages.",
       aiRole: "report",
       roleLabel: "Flagged → reported",
       planDetails: [
-        { label: "What AI was good at", text: "Pattern over time: repetition, escalation, operational detail—not a single angry line." },
-        { label: "Why it mattered", text: "No one had filed a report. Chat logs linked the anonymous messages and showed threat capability." }
+        { label: "What AI was good at", text: "Pattern over time—repetition, escalation, operational detail—not a single angry line." },
+        { label: "Why it mattered", text: "No one had filed a tip first. Logs plus her screenshots linked identity, intent, and capability." },
+        { label: "Policy backdrop", text: "OpenAI’s Aug 2025 policy: imminent serious-harm threats to others can escalate to law-enforcement referral." }
       ]
     },
     {
       id: "arrest",
-      date: "May 27, 2025",
-      title: "Law enforcement at the door",
+      date: "May 2026",
+      title: "Arrest",
       summary:
-        "Palm Beach County Sheriff’s Office contacts Amber. Darren is arrested as a credible threat—aggravated stalking, written threats, unlawful use of a communications device (charges as reported).",
+        "Armed with the AI chat logs and the victim’s screenshots, deputies arrest Zhou. He spends two days in Palm Beach County jail and posts $100,000 bail.",
       aiRole: "outcome",
       roleLabel: "Case opened"
     },
     {
       id: "plea",
-      date: "Aug 13–14, 2025",
-      title: "Guilty pleas, probation",
+      date: "Jun–Aug 13, 2026",
+      title: "Charges, plea, probation",
       summary:
-        "He pleads guilty to three counts. The court withholds adjudication and imposes 8 years of probation (per reporting), with restrictions including a GPS monitor for two years and no weapons—victim input and no prior record were factors.",
+        "Assistant State Attorney Ana Cuskova charges aggravated stalking, written threats to kill, and illegal use of a cell phone (felonies, up to 25 years as reported). Zhou pleads guilty to all three on Aug. 13. Circuit Judge Scott Suskauer—withholds adjudication and imposes eight years of probation after the victim approved the deal.",
       aiRole: "outcome",
-      roleLabel: "Court outcome"
+      roleLabel: "Court outcome",
+      planDetails: [
+        { label: "Victim’s role", text: "Judge said he accepted the deal only because Zhou’s ex-girlfriend approved it." },
+        { label: "Also on record", text: "Northeastern magna cum laude; no prior record; messages implied firearms but he did not own them." }
+      ]
     }
   ],
   sources: [
     {
-      label: "Sanlian Life Week (三联生活周刊) — “25-year-old Goldman Sachs analyst planned to kill ex: a crime plan reported by AI”",
-      url: "",
-      note: "Primary narrative source for this PoC (in Chinese). Date as published: 2025-09-13. Short excerpts only on this page.",
-      displayText: "Sanlian Life Week · 2025-09-13 · journalist Song Ruoxi / editor Wang Shan"
+      label: "Florida man told ChatGPT he’d murder his ex. OpenAI alerted the FBI",
+      url: "https://valawyersweekly.com/2026/08/17/florida-man-openai-fbi-threats-palm-beach/",
+      displayText: "Virginia Lawyers Weekly (USA TODAY Network via Reuters Connect) · Aug 17, 2026 · reporting by Hannah Phillips, Palm Beach Post",
+      note: "Primary English narrative used for this timeline. Short attributed facts only."
     },
     {
-      label: "OpenAI law-enforcement disclosure (as described in court filing / reporting)",
-      url: "",
-      note: "Described in the Sanlian piece and court probable-cause affidavit coverage. Link to be verified in slice 4 if a stable public URL is available.",
-      displayText: "As reported: emergency disclosure to law enforcement, May 2025"
+      label: "South Palm Beach Man's ChatGPT Threats Reported to FBI",
+      url: "https://hoodline.com/2026/08/south-palm-beach-analyst-s-chatgpt-rape-murder-threats-land-him-in-fbi-crosshairs/",
+      displayText: "Hoodline · Aug 14, 2026",
+      note: "Cross-check on OpenAI → FBI referral, quotes, and policy backdrop."
     },
     {
-      label: "Comparable cases named in the same reporting (context only)",
+      label: "OpenAI Reports Florida Man’s ChatGPT Murder Threats to FBI",
+      url: "https://www.medianama.com/2026/08/223-openai-reports-chatgpt-murder-threats-to-fbi/",
+      displayText: "MediaNama · Aug 17, 2026",
+      note: "Third outlet on the same referral pattern."
+    },
+    {
+      label: "Sanlian Life Week Chinese magazine feature (secondary, as user source)",
       url: "",
-      note: "Brazil parental-murder plan case (June 2025); Canada school-shooting chat flags without same-day LE report (Feb 2025). Not expanded in this PoC.",
-      displayText: "Context: other 2025 AI-disclosure cases (Brazil, Canada) — not this timeline"
+      displayText: "三联生活周刊 long-form feature (Chinese) — used earlier in research; year on the clip may be wrong (see note)",
+      note: "Matches names, charges, plea, probation. Treat court-facing English reports as controlling for dates (events 2026). Specific parking-lot plan detail not confirmed in the two English texts read—omitted from timeline unless primary affidavit is cited."
     }
   ]
 };
