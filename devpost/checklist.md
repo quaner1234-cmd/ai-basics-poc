@@ -23,7 +23,7 @@ Build mode: learn
   Learner check: 打开页面，说出第一眼是否感到「这是一个问题」，进入动作是否明显。
   Commit: `Add scaffold and hero question screen`
 
-- [ ] **2. 可滚动时间线（kernel）**
+- [x] **2. 可滚动时间线（kernel）**
   Becomes usable: 时间线一节出现 Darren 案节点：日期、事件摘要、**行动顺序/具体计划**要点；可纵向滚动读完。
   Why now: 这是 unique kernel——「AI干了什么 / 行动顺序与具体计划」尽早可用，而不是最后才接上。
   PRD ref: `prd.md > AI干了什么 · 时间线`
