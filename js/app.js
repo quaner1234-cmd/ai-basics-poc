@@ -116,4 +116,58 @@
   } else {
     init();
   }
+
+  /* suspense fx: scroll reveal + title decode */
+  function setupScrollReveal() {
+    if (!("IntersectionObserver" in window)) return;
+    var items = document.querySelectorAll(".timeline__item, .source, .hero__cta");
+    items.forEach(function (n) { n.classList.add("will-reveal"); });
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add("is-revealed");
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 }
+    );
+    items.forEach(function (n) { io.observe(n); });
+  }
+
+  function decodeTitle() {
+    var el = document.querySelector(".hero__title");
+    if (!el) return;
+    var final = el.textContent;
+    var glyphs = "!<>-_\\\\[]{}—=+*^?#________";
+    var frame = 0;
+    var settled = 0;
+    function tick() {
+      var out = "";
+      for (var i = 0; i < final.length; i++) {
+        if (i < settled) out += final[i];
+        else if (final[i] === " ") out += " ";
+        else out += glyphs[Math.floor(Math.random() * glyphs.length)];
+      }
+      el.textContent = out;
+      frame++;
+      if (frame % 3 === 0) settled++;
+      if (settled <= final.length) requestAnimationFrame(tick);
+      else el.textContent = final;
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function bootFx() {
+    decodeTitle();
+    setupScrollReveal();
+    document.documentElement.classList.add("fx-on");
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bootFx);
+  } else {
+    bootFx();
+  }
 })();
