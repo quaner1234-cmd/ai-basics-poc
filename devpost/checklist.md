@@ -13,7 +13,7 @@ Build mode: learn
 
 ## Slices
 
-- [ ] **1. 骨架 + 第一屏提问**
+- [x] **1. 骨架 + 第一屏提问**
   Becomes usable: 打开 `index.html` 能看到主标题「AI会伤害人吗？」、副题「帮凶？帮手？AI遇上暴力，会怎么做？」，有明确的进入/向下动作，能到达页面下方各节的占位。
   Why now: 第一片就把脚手架和真实 Hero 一起交付，端到端路径先通；后续切片往这条路上填内容。
   PRD ref: `prd.md > 第一屏提问` / `prd.md > The Core Journey`
@@ -75,3 +75,5 @@ Reflection: [to fill]
 Activity mode: [to fill]
 
 ## Revisions
+
+- [English-only UI and copy] — [Submission materials must be English (or translated); learner chose English-only instead of a zh/en toggle after this constraint was flagged mid-build. Dual-language switch is cut.]
