@@ -8,7 +8,7 @@ window.CASE_DATA = {
       date: "Mar 2026",
       title: "Breakup, then harassment",
       summary:
-        "After a six-month relationship, a 21-year-old woman from Lake Worth Beach ends it by phone—she later tells deputies she feared his “erratic, jealous and controlling behavior.” From March, Darren Zhou turns to ChatGPT to process the breakup and tracks her online activity.",
+        "After a six-month relationship, a 21-year-old woman from Lake Worth Beach ends it by phone—she later tells deputies she feared his “erratic, jealous and controlling behavior.” From March, Darren Zhou turns to ChatGPT to discuss the breakup and tracks her online activity.",
       aiRole: "context",
       roleLabel: "Context",
       planDetails: []
@@ -38,8 +38,9 @@ window.CASE_DATA = {
       aiRole: "report",
       roleLabel: "Flagged → reported",
       planDetails: [
-        { label: "What AI was good at", text: "Pattern over time—repetition, escalation, operational detail—not a single angry line." },
-        { label: "Why it mattered", text: "No one had filed a tip first. Logs plus her screenshots linked identity, intent, and capability." },
+        { label: "What made it detectable", text: "Pattern over time—repetition, escalation, operational detail—not a single angry line." },
+        { label: "Why it mattered", text: "Her own report was delayed; the OpenAI referral reached investigators first. Logs plus her screenshots gave deputies identity and intent." },
+        { label: "What ChatGPT replied", text: "Not part of the public record. Court materials include only Zhou’s messages, not the chatbot’s responses." },
         { label: "Policy backdrop", text: "OpenAI’s Aug 2025 policy: imminent serious-harm threats to others can escalate to law-enforcement referral." }
       ]
     },

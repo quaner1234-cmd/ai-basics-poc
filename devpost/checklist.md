@@ -79,3 +79,5 @@ Activity mode: [to fill]
 - [Pixel fonts + Matrix phosphor green palette] — [Final-review visual request from learner: VT323/Press Start 2P and #00ff41 on near-black. Digital-rain animation still out; green theme is in.]
 
 - [English-only UI and copy] — [Submission materials must be English (or translated); learner chose English-only instead of a zh/en toggle after this constraint was flagged mid-build. Dual-language switch is cut.]
+
+- [Evidence-level tightening of AI causal claims] — [Step 0 source re-audit: court materials include only Zhou's messages, not ChatGPT's responses (Palm Beach Post via Virginia Lawyers Weekly; MediaNama). Causal phrasing in hero lead and verdict downgraded to record-level claims; explicit "What ChatGPT replied — not part of the public record" row added to the disclosure node; "process the breakup" → "discuss the breakup"; "Why it mattered" now states only what sources support (delayed report, referral first, identity and intent).]

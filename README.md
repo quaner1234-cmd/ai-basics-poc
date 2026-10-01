@@ -12,7 +12,7 @@ A single-page proof of concept: **what AI actually did** when it met a violent c
 
 ## Case (verified)
 
-Darren Zhou / OpenAI → FBI → Palm Beach County (2026). Event facts cross-checked against Palm Beach Post (via Virginia Lawyers Weekly / USA TODAY Network) and Hoodline. Chinese magazine clip used in research had a **wrong year**; timeline follows court-facing English reporting.
+Darren Zhou / OpenAI → FBI → Palm Beach County (2026). Event facts cross-checked against Palm Beach Post (via Virginia Lawyers Weekly / USA TODAY Network), Hoodline, and MediaNama. Chinese magazine clip used in research had a **wrong year**; timeline follows court-facing English reporting.
 
 ## Run locally
 
