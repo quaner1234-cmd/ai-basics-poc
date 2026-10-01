@@ -5,3 +5,7 @@
 .env
 .env.*
 !.env.example
+
+# Local agent-tool skill installs (duplicates of agent/skills)
+.agents/
+.claude/
