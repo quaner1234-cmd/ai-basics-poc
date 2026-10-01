@@ -212,7 +212,7 @@
     main.scrollIntoView({ behavior: "smooth", block: "start" });
 
     var blocks = Array.prototype.slice.call(
-      document.querySelectorAll(".timeline__item, .source")
+      document.querySelectorAll(".timeline__item, .source, .verdict__line")
     );
     blocks.forEach(function (n) {
       n.classList.remove("is-revealed");

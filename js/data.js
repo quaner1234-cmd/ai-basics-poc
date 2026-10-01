@@ -88,8 +88,8 @@ window.CASE_DATA = {
     {
       label: "Sanlian Life Week Chinese magazine feature (secondary, as user source)",
       url: "",
-      displayText: "三联生活周刊 long-form feature (Chinese) — used earlier in research; year on the clip may be wrong (see note)",
-      note: "Matches names, charges, plea, probation. Treat court-facing English reports as controlling for dates (events 2026). Specific parking-lot plan detail not confirmed in the two English texts read—omitted from timeline unless primary affidavit is cited."
+      displayText: "三联生活周刊 long-form feature (Chinese) · secondary source",
+      note: "Cross-checked names, charges, plea, and probation; court-facing English reports control the dates."
     }
   ]
 };

@@ -348,6 +348,21 @@ body {
   font-size: 0.85rem;
 }
 
+/* —— Verdict —— */
+.section--verdict .verdict__line {
+  font-family: var(--mono);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: 44rem;
+  margin: 0 0 1.1rem;
+}
+
+.verdict__line:last-child {
+  color: var(--accent);
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.35);
+}
+
 /* —— Footer —— */
 .site-footer {
   padding: calc(var(--pad) * 1.25) var(--pad) var(--pad);
