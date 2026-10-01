@@ -8,14 +8,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="css/styles.css" />
+  <meta name="theme-color" content="#030805" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Would AI Hurt People?" />
+  <meta property="og:title" content="Would AI Hurt People?" />
+  <meta property="og:description" content="Accomplice or helper? A real, source-checked case of what AI actually did when it met a violent crime plan." />
+  <meta property="og:url" content="https://quaner1234-cmd.github.io/ai-basics-poc/" />
+  <meta property="og:image" content="https://quaner1234-cmd.github.io/ai-basics-poc/assets/og-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <noscript>
+    <style>
+      /* no-JS fallback: keep the case readable without the CTA gate */
+      #case { display: block !important; }
+      button.hero__cta { display: none; }
+      .hero__scroll-hint { display: none; }
+    </style>
+  </noscript>
 </head>
 <body>
   <a class="skip-link" href="#timeline">Skip to timeline</a>
 
   <header class="hero" id="top">
     <p class="hero__kicker">CASE FILE // AI &amp; VIOLENCE</p>
-    <h1 class="hero__title">Would AI Hurt People?</h1>
+    <h1 class="hero__title" aria-label="Would AI Hurt People?">Would AI Hurt People?</h1>
     <p class="hero__subtitle">Accomplice or helper? When AI meets violence, what does it do?</p>
     <p class="hero__lead">In a real case, AI’s strength—breaking plans into steps and sequence—landed exactly on the structure of a crime.</p>
     <button class="hero__cta" type="button" id="open-case">Open: What AI did</button>
@@ -30,7 +49,35 @@
         <p class="section__intro">A real case, rebuilt from court-facing reporting: what happened in order, and where a plan became concrete enough to act on.</p>
       </div>
       <div class="timeline" id="timeline-root">
-        
+        <!-- No-JS fallback, mirrored from js/data.js (summaries only; plan details are interactive).
+             JS boot wipes this node and renders the interactive timeline. Keep both in sync. -->
+        <ol class="timeline__list">
+          <li class="timeline__item">
+            <div class="timeline__head"><time class="timeline__date">Mar 2026</time><span class="timeline__role">Context</span></div>
+            <div class="timeline__body"><h3>Breakup, then harassment</h3>
+              <p class="timeline__summary">After a six-month relationship, a 21-year-old woman from Lake Worth Beach ends it by phone—she later tells deputies she feared his “erratic, jealous and controlling behavior.” From March, Darren Zhou turns to ChatGPT to process the breakup and tracks her online activity.</p></div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__head"><time class="timeline__date">Mar–May 2026</time><span class="timeline__role">Plan recorded</span></div>
+            <div class="timeline__body"><h3>Threats harden into a plan</h3>
+              <p class="timeline__summary">Chat messages preserved in court records escalate from jealousy talk to rape, murder, and murder-suicide. Zhou writes lines including “I'm gonna kill her by the end of this month” and “If I can't have her then nobody can.” Targets later include her family.</p></div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__head"><time class="timeline__date">May 2026</time><span class="timeline__role">Flagged → reported</span></div>
+            <div class="timeline__body"><h3>OpenAI flags → FBI → local deputies</h3>
+              <p class="timeline__summary">OpenAI’s safety systems flag the chats for human review; the company reports Zhou to the FBI. Federal agents hand two months of his chat logs to the Palm Beach County Sheriff’s Office. Deputies also take the ex-girlfriend’s screenshots of harassing messages.</p></div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__head"><time class="timeline__date">May 2026</time><span class="timeline__role">Case opened</span></div>
+            <div class="timeline__body"><h3>Arrest</h3>
+              <p class="timeline__summary">Armed with the AI chat logs and the victim’s screenshots, deputies arrest Zhou. He spends two days in Palm Beach County jail and posts $100,000 bail.</p></div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__head"><time class="timeline__date">Jun–Aug 13, 2026</time><span class="timeline__role">Court outcome</span></div>
+            <div class="timeline__body"><h3>Charges, plea, probation</h3>
+              <p class="timeline__summary">Assistant State Attorney Ana Cuskova charges aggravated stalking, written threats to kill, and illegal use of a cell phone (felonies, up to 25 years as reported). Zhou pleads guilty to all three on Aug. 13. Circuit Judge Scott Suskauer—withholds adjudication and imposes eight years of probation after the victim approved the deal.</p></div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -41,7 +88,27 @@
         <p class="section__intro">Every claim above traces to public reporting. Open a link and check it.</p>
       </div>
       <ul class="sources" id="sources-root">
-        
+        <!-- No-JS fallback, mirrored from js/data.js. JS boot wipes this node and re-renders. -->
+        <li class="source">
+          <div class="source__title">Virginia Lawyers Weekly (USA TODAY Network via Reuters Connect) · Aug 17, 2026 · reporting by Hannah Phillips, Palm Beach Post</div>
+          <a class="source__link" href="https://valawyersweekly.com/2026/08/17/florida-man-openai-fbi-threats-palm-beach/" rel="noopener noreferrer" target="_blank">https://valawyersweekly.com/2026/08/17/florida-man-openai-fbi-threats-palm-beach/</a>
+          <p class="source__note">Primary English narrative used for this timeline. Short attributed facts only.</p>
+        </li>
+        <li class="source">
+          <div class="source__title">Hoodline · Aug 14, 2026</div>
+          <a class="source__link" href="https://hoodline.com/2026/08/south-palm-beach-analyst-s-chatgpt-rape-murder-threats-land-him-in-fbi-crosshairs/" rel="noopener noreferrer" target="_blank">https://hoodline.com/2026/08/south-palm-beach-analyst-s-chatgpt-rape-murder-threats-land-him-in-fbi-crosshairs/</a>
+          <p class="source__note">Cross-check on OpenAI → FBI referral, quotes, and policy backdrop.</p>
+        </li>
+        <li class="source">
+          <div class="source__title">MediaNama · Aug 17, 2026</div>
+          <a class="source__link" href="https://www.medianama.com/2026/08/223-openai-reports-chatgpt-murder-threats-to-fbi/" rel="noopener noreferrer" target="_blank">https://www.medianama.com/2026/08/223-openai-reports-chatgpt-murder-threats-to-fbi/</a>
+          <p class="source__note">Third outlet on the same referral pattern.</p>
+        </li>
+        <li class="source">
+          <div class="source__title">三联生活周刊 long-form feature (Chinese) — used earlier in research; year on the clip may be wrong (see note)</div>
+          <p class="source__fallback">Sanlian Life Week Chinese magazine feature (secondary, as user source)</p>
+          <p class="source__note">Matches names, charges, plea, probation. Treat court-facing English reports as controlling for dates (events 2026). Specific parking-lot plan detail not confirmed in the two English texts read—omitted from timeline unless primary affidavit is cited.</p>
+        </li>
       </ul>
     </section>
   </main>

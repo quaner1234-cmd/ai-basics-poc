@@ -16,7 +16,7 @@ Darren Zhou / OpenAI → FBI → Palm Beach County (2026). Event facts cross-che
 
 ## Run locally
 
-No build step. Open `index.html` in a browser. Content lives in `js/data.js` — edit facts there, not in HTML.
+No build step. Open `index.html` in a browser. Content lives in `js/data.js` — edit facts there, not in HTML. `index.html` also carries a static no-JS fallback (timeline summaries + sources) mirrored from `data.js`; if facts change, update both.
 
 ## Deploy (GitHub Pages)
 
