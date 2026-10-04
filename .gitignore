@@ -9,3 +9,7 @@
 # Local agent-tool skill installs (duplicates of agent/skills)
 .agents/
 .claude/
+
+# Local demo video artifacts (uploaded separately; kept out of the repo)
+/devpost/demo-video/
+

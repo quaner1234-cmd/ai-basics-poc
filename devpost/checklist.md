@@ -56,11 +56,11 @@ Build mode: learn
 ## Hands-on Checkpoints
 
 - [x] Early usable behavior explored 鈥?slices 1-2 完成后（时间线 kernel 可用时）
-- [ ] Final kick-the-tires exploration and feedback completed
+- [x] Final kick-the-tires exploration and feedback completed
 
 ## Final Review
 
-- [ ] Final review complete 鈥?feedback resolved and learner confirms ready to ship
+- [x] Final review complete 鈥?feedback resolved and learner confirms ready to ship
 
 ## Code Tour and App Map
 
@@ -81,3 +81,5 @@ Activity mode: [to fill]
 - [English-only UI and copy] — [Submission materials must be English (or translated); learner chose English-only instead of a zh/en toggle after this constraint was flagged mid-build. Dual-language switch is cut.]
 
 - [Evidence-level tightening of AI causal claims] — [Step 0 source re-audit: court materials include only Zhou's messages, not ChatGPT's responses (Palm Beach Post via Virginia Lawyers Weekly; MediaNama). Causal phrasing in hero lead and verdict downgraded to record-level claims; explicit "What ChatGPT replied — not part of the public record" row added to the disclosure node; "process the breakup" → "discuss the breakup"; "Why it mattered" now states only what sources support (delayed report, referral first, identity and intent).]
+
+- [Final review - no changes requested] - [Learner explored the deployed site (GitHub Pages) after the green-theme revision and reported nothing to change; cleared for ship preparation.]
