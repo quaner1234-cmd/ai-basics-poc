@@ -15,6 +15,10 @@ I joined this contest because I enjoyed another building contest, the WeChat Min
 
 I have to say, at first I thought it would be too easy, as this is AI Basics, but I have built something.
 
+### What it does
+
+The page is about AI and crime. I created this page with some motion and fonts to show what AI does when it meets real violence. I want people to change their thinking from "AI hurts people" to "AI helps people", using a real case. [8] This page is mainly for people who know little about AI. [9]
+
 ### How I built it
 
 In the process, it was interesting, because I had never built something as a complete beginner. [2] I followed the skill instructions to think before acting. This was a bit difficult for me, as I usually don't think too much when I build things. But I followed the agent's instructions in the skill [3] and finally built a simple page. I edited a video and held off submitting. [4] I did not submit immediately, and in the following days, this experience stayed with me when I built other things.
@@ -43,17 +47,23 @@ Anyway, I am really happy that I decided to join this. Thanks a lot.
 | 5 | "I **just thought of** this contest" | "this contest **came to mind**" | "just thought of" is ambiguous between "only thought of" and "remembered". |
 | 6 | "part of **this skill** into my public GitHub **repo**" | "part of **what I learned here** into my public GitHub **repos**" | Two repos are linked below it, and the skill inside them is each repo's own agent skill (see next section). |
 | 7 | "my **GitHub pages** that can be checked" | "the **repositories** here" | These links are repositories, not GitHub Pages sites. |
+| 8 | "**To let people change thoughts** from AI hurt people to help people with real case." | "I want people to change their thinking from 'AI hurts people' to 'AI helps people', using a real case." | Sentence fragment; tense and plurals fixed. Meaning unchanged. |
+| 9 | "people **knows** little about AI" | "people **who know** little about AI" | Relative clause. |
 
 Not changed: "learnt" is correct British English. Switch to "learned" only if you want US spelling throughout.
 
-## One claim to re-check
+## Claims to re-check
 
-The line "I packed part of this skill into my public GitHub repo" is the only factual claim in the story that the linked repos don't literally support. Checked 2026-10-20:
+**"I packed part of this skill into my public GitHub repo"** — the one claim in the story that the linked repos don't literally support. Checked 2026-10-20:
 
 - **labor-arbitration-toolkit-cn** contains an agent skill at `07_给Agent用户/SKILL.md`. It walks a zero-background user through labor-arbitration prep: privacy check first, "ask before guessing", never infer progress. It does not copy this contest's Learn skills.
 - **trade-client-memory** is a "Skill Pack" that turns an authorized mailbox into one folder per customer for foreign-trade salespeople who shouldn't need Python, IMAP or MCP.
 
 So "part of what I learned here" is accurate as written above. If you meant you republished the contest's skill files themselves, that is not what those two repos contain, and the sentence would need different wording.
+
+**"I created this page with some motion and fonts"** — supported. The page ships two pixel fonts (Press Start 2P for headings, VT323 for body), a terminal-style typing reveal behind the CTA, and animated expand/collapse on the plan details. Naming one of these ("pixel fonts and a terminal-style typing reveal") would tell reviewers it isn't a template.
+
+**"from 'AI hurts people' to 'AI helps people'"** — the page's own verdict is narrower than this. It says: "In this case, AI never pulled a trigger. The plan grew in Zhou's own typed words", and the record shows OpenAI flagged the chats, reported him to the FBI, and the log was handed to deputies. If the submission promises "AI helps people" and the page hedges, a judge who reads both will notice. Your call — you could keep it and let the case carry it, or soften to "what AI actually did".
 
 ## Link check (2026-10-20)
 
@@ -69,7 +79,6 @@ So "part of what I learned here" is accurate as written above. If you meant you 
 
 - [ ] **Project name** — "Would AI Hurt People?" (already the repo and OG title; confirm it carries into the form)
 - [ ] **Short description** — the one-line tagline on the project card: **TODO, yours**
-- [ ] **What it does** — **TODO, yours.** Prompt: "In your own words, what did you make, and who is it for?"
 - [ ] Optional **Challenges we ran into** — your "I usually don't think too much when I build" passage could sit here if you'd rather split it out
 - [ ] Optional **Accomplishments we're proud of**
 - [ ] **Demo video public URL** — local file is `devpost/demo-video/ai-basics-poc-demo.mp4` (1440×900, 1.8 MB); it must be watchable without a login
