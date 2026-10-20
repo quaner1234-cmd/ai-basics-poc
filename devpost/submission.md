@@ -11,6 +11,8 @@ Your copy (2026-10-20), arranged into the standard Devpost story fields. Only sp
 
 **Short description:** What would AI do if it were sure something unusual was happening?
 
+**Demo video:** https://youtu.be/Ocvk4cys31A — 0:57, Unlisted, watchable without a login (checked 2026-10-21)
+
 ## Story
 
 ### Inspiration
@@ -82,9 +84,9 @@ The current wording is accurate. If you meant you republished the contest's skil
 
 ## Still needed before submitting
 
-- [ ] **Demo video public URL** — local file `devpost/demo-video/ai-basics-poc-demo.mp4` (1440×900, 1.8 MB); must be watchable without a login
-- [ ] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc
-- [ ] Optional **live link** — https://quaner1234-cmd.github.io/ai-basics-poc/
+- [x] **Demo video public URL** — https://youtu.be/Ocvk4cys31A (Unlisted; oEmbed returns 200 without login)
+- [x] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc (public, checked 2026-10-21)
+- [x] **Live link** — https://quaner1234-cmd.github.io/ai-basics-poc/ (200)
 - [ ] **"Built with" tags** — only what the project actually uses: HTML, CSS, JavaScript, GitHub Pages, ChatGPT, AI agent skills
 - [ ] Optional **Challenges we ran into** — the "I usually don't think too much when I build" passage could move here if you want it separate
 - [ ] Optional **Accomplishments we're proud of**
