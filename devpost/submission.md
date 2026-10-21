@@ -82,7 +82,18 @@ The current wording is accurate. If you meant you republished the contest's skil
 | `https://github.com/quaner1234-cmd/ai-basics-poc` | 200 (public) |
 | `https://quaner1234-cmd.github.io/ai-basics-poc/` | 200 |
 
-## Still needed before submitting
+## Status: SUBMITTED (2026-10-21)
+
+Devpost submission **1249275** — 5/5 steps complete. Project page: https://devpost.com/software/would-ai-hurt-people
+
+Verified after submitting:
+
+- Project page shows **SUBMITTED TO → Build With AI: Basics**
+- My projects list shows **"Submitted 5/5 steps done — Would AI Hurt People?"**
+- Video embed, both Try it out links, five tags, and the story all render on the public page
+- Deadline: 2026-10-27 05:00 GMT+8
+
+## Checklist (all done)
 
 - [x] **Demo video public URL** — https://youtu.be/Ocvk4cys31A (Public; watch page returns isUnlisted:false, oEmbed 200 without login)
 - [x] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc (public, MIT license visible in About)
@@ -115,6 +126,6 @@ Submission 1249275 under Build With AI: Basics, project page https://devpost.com
 | Technology requirement | Devpost Learn Skill Pack + planning docs in repo + end-to-end PoC |
 | Two eligibility confirmations | Checked |
 
-**Not yet done: the final "Submit project" click.** Everything else is saved; the Submit page only needs the terms checkbox and the button.
+**Submitted.** The terms checkbox was checked and "Submit project" was pressed by the learner; Devpost now reports 5/5 steps done.
 
 `devpost/learner-profile.md` and `devpost/demo-video/` stay out of the public repo (both are gitignored).
