@@ -11,7 +11,7 @@ Your copy (2026-10-20), arranged into the standard Devpost story fields. Only sp
 
 **Short description:** What would AI do if it were sure something unusual was happening?
 
-**Demo video:** https://youtu.be/Ocvk4cys31A — 0:57, Unlisted, watchable without a login (checked 2026-10-21)
+**Demo video:** https://youtu.be/Ocvk4cys31A — 0:57, Public, watchable without a login (checked 2026-10-21)
 
 ## Story
 
@@ -84,7 +84,7 @@ The current wording is accurate. If you meant you republished the contest's skil
 
 ## Still needed before submitting
 
-- [x] **Demo video public URL** — https://youtu.be/Ocvk4cys31A (Unlisted; oEmbed returns 200 without login)
+- [x] **Demo video public URL** — https://youtu.be/Ocvk4cys31A (Public; watch page returns isUnlisted:false, oEmbed 200 without login)
 - [x] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc (public, MIT license visible in About)
 - [x] **Live link** — https://quaner1234-cmd.github.io/ai-basics-poc/ (200)
 - [x] **"Built with" tags** — html, css, javascript, github, chatgpt
@@ -102,7 +102,7 @@ Submission 1249275 under Build With AI: Basics, project page https://devpost.com
 | About the project | The four story sections above, in Markdown |
 | Built with | html, css, javascript, github, chatgpt |
 | Try it out links | live page + GitHub repo |
-| Video demo link | https://youtu.be/Ocvk4cys31A (embedded, verified) |
+| Video demo link | https://youtu.be/Ocvk4cys31A (Public, embedded, verified) |
 | Image gallery | `preview-green.png` uploaded |
 | Submitting as | Individual |
 | Country | China |
