@@ -85,10 +85,36 @@ The current wording is accurate. If you meant you republished the contest's skil
 ## Still needed before submitting
 
 - [x] **Demo video public URL** — https://youtu.be/Ocvk4cys31A (Unlisted; oEmbed returns 200 without login)
-- [x] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc (public, checked 2026-10-21)
+- [x] **Public repo URL** — https://github.com/quaner1234-cmd/ai-basics-poc (public, MIT license visible in About)
 - [x] **Live link** — https://quaner1234-cmd.github.io/ai-basics-poc/ (200)
-- [ ] **"Built with" tags** — only what the project actually uses: HTML, CSS, JavaScript, GitHub Pages, ChatGPT, AI agent skills
-- [ ] Optional **Challenges we ran into** — the "I usually don't think too much when I build" passage could move here if you want it separate
-- [ ] Optional **Accomplishments we're proud of**
+- [x] **"Built with" tags** — html, css, javascript, github, chatgpt
+- [x] **Elevator pitch** — What would AI do if it were sure something unusual was happening?
+- [x] **Project name** — Would AI Hurt People?
+
+## Filled on Devpost (2026-10-21)
+
+Submission 1249275 under Build With AI: Basics, project page https://devpost.com/software/would-ai-hurt-people
+
+| Field | Value |
+|---|---|
+| Project name | Would AI Hurt People? |
+| Elevator pitch | What would AI do if it were sure something unusual was happening? |
+| About the project | The four story sections above, in Markdown |
+| Built with | html, css, javascript, github, chatgpt |
+| Try it out links | live page + GitHub repo |
+| Video demo link | https://youtu.be/Ocvk4cys31A (embedded, verified) |
+| Image gallery | `preview-green.png` uploaded |
+| Submitting as | Individual |
+| Country | China |
+| Used | Discord |
+| AI cost | No, I never thought about it |
+| Confidence | 5 (Easily) |
+| Value | Let me do something I couldn't do before |
+| Value detail | To help other people … (learner's words) |
+| License URL | https://github.com/quaner1234-cmd/ai-basics-poc/blob/main/LICENSE |
+| Technology requirement | Devpost Learn Skill Pack + planning docs in repo + end-to-end PoC |
+| Two eligibility confirmations | Checked |
+
+**Not yet done: the final "Submit project" click.** Everything else is saved; the Submit page only needs the terms checkbox and the button.
 
 `devpost/learner-profile.md` and `devpost/demo-video/` stay out of the public repo (both are gitignored).
